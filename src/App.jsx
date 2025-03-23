@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import { FaHeart, FaComment, FaShare, FaTrash, FaRocket } from "react-icons/fa";
+import "./index.css";
 
 const App = () => {
   const [blogs, setBlogs] = useState([]);
